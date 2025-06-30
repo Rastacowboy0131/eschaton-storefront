@@ -3,7 +3,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useState } from "react";
+import React, { ReactNode } from 'react';
+
 
 export default function EschatonStorefront() {
   const [selectedProduct, setSelectedProduct] = useState(null);
