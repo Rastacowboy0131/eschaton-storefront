@@ -1,6 +1,4 @@
 // app/layout.tsx
-import './globals.css' // Or your actual CSS file
-import type { ReactNode } from 'react'
 
 export const metadata = {
   title: 'Eschaton Storefront',
@@ -13,4 +11,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>{children}</body>
     </html>
   )
-}
+}// If you place it in styles/globals.css
+import '../styles/globals.css';
+
